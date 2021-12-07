@@ -1,0 +1,1 @@
+[2021-12-07 22:03:15,049] INFO user=tuyen	operation=serverStop	result=invoked (org.apache.zookeeper.audit.Log4jAuditLogger)

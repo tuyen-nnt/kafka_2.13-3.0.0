@@ -1,18 +1,32 @@
-[2021-12-06T22:40:34.273+0700][gc,heap] Heap region size: 1M
-[2021-12-06T22:40:34.286+0700][gc     ] Using G1
-[2021-12-06T22:40:34.286+0700][gc,heap,coops] Heap address: 0x00000000e0000000, size: 512 MB, Compressed Oops mode: 32-bit
-[2021-12-06T22:40:34.287+0700][gc,cds       ] Mark closed archive regions in map: [0x00000000fff00000, 0x00000000fff6aff8]
-[2021-12-06T22:40:34.287+0700][gc,cds       ] Mark open archive regions in map: [0x00000000ffe00000, 0x00000000ffe46ff8]
-[2021-12-06T22:40:34.678+0700][gc,start     ] GC(0) Pause Young (Normal) (G1 Evacuation Pause)
-[2021-12-06T22:40:34.679+0700][gc,task      ] GC(0) Using 8 workers of 8 for evacuation
-[2021-12-06T22:40:34.689+0700][gc,phases    ] GC(0)   Pre Evacuate Collection Set: 0,0ms
-[2021-12-06T22:40:34.689+0700][gc,phases    ] GC(0)   Evacuate Collection Set: 9,0ms
-[2021-12-06T22:40:34.689+0700][gc,phases    ] GC(0)   Post Evacuate Collection Set: 0,3ms
-[2021-12-06T22:40:34.689+0700][gc,phases    ] GC(0)   Other: 0,8ms
-[2021-12-06T22:40:34.689+0700][gc,heap      ] GC(0) Eden regions: 25->0(21)
-[2021-12-06T22:40:34.689+0700][gc,heap      ] GC(0) Survivor regions: 0->4(4)
-[2021-12-06T22:40:34.689+0700][gc,heap      ] GC(0) Old regions: 2->5
-[2021-12-06T22:40:34.689+0700][gc,heap      ] GC(0) Humongous regions: 0->0
-[2021-12-06T22:40:34.689+0700][gc,metaspace ] GC(0) Metaspace: 7641K->7641K(1056768K)
-[2021-12-06T22:40:34.689+0700][gc           ] GC(0) Pause Young (Normal) (G1 Evacuation Pause) 25M->7M(512M) 10,141ms
-[2021-12-06T22:40:34.689+0700][gc,cpu       ] GC(0) User=0,06s Sys=0,01s Real=0,01s
+[2021-12-07T22:05:11.830+0700][gc,heap] Heap region size: 1M
+[2021-12-07T22:05:11.834+0700][gc     ] Using G1
+[2021-12-07T22:05:11.834+0700][gc,heap,coops] Heap address: 0x00000000e0000000, size: 512 MB, Compressed Oops mode: 32-bit
+[2021-12-07T22:05:11.834+0700][gc,cds       ] Mark closed archive regions in map: [0x00000000fff00000, 0x00000000fff6aff8]
+[2021-12-07T22:05:11.834+0700][gc,cds       ] Mark open archive regions in map: [0x00000000ffe00000, 0x00000000ffe46ff8]
+[2021-12-07T22:05:12.266+0700][gc,start     ] GC(0) Pause Young (Normal) (G1 Evacuation Pause)
+[2021-12-07T22:05:12.267+0700][gc,task      ] GC(0) Using 8 workers of 8 for evacuation
+[2021-12-07T22:05:12.275+0700][gc,phases    ] GC(0)   Pre Evacuate Collection Set: 0,0ms
+[2021-12-07T22:05:12.275+0700][gc,phases    ] GC(0)   Evacuate Collection Set: 7,1ms
+[2021-12-07T22:05:12.275+0700][gc,phases    ] GC(0)   Post Evacuate Collection Set: 0,4ms
+[2021-12-07T22:05:12.275+0700][gc,phases    ] GC(0)   Other: 0,8ms
+[2021-12-07T22:05:12.275+0700][gc,heap      ] GC(0) Eden regions: 25->0(21)
+[2021-12-07T22:05:12.275+0700][gc,heap      ] GC(0) Survivor regions: 0->4(4)
+[2021-12-07T22:05:12.275+0700][gc,heap      ] GC(0) Old regions: 2->5
+[2021-12-07T22:05:12.275+0700][gc,heap      ] GC(0) Humongous regions: 0->0
+[2021-12-07T22:05:12.275+0700][gc,metaspace ] GC(0) Metaspace: 7591K->7591K(1056768K)
+[2021-12-07T22:05:12.275+0700][gc           ] GC(0) Pause Young (Normal) (G1 Evacuation Pause) 25M->7M(512M) 8,358ms
+[2021-12-07T22:05:12.275+0700][gc,cpu       ] GC(0) User=0,06s Sys=0,00s Real=0,01s
+[2021-12-07T22:41:25.693+0700][gc,start     ] GC(1) Pause Young (Normal) (G1 Evacuation Pause)
+[2021-12-07T22:41:25.694+0700][gc,task      ] GC(1) Using 8 workers of 8 for evacuation
+[2021-12-07T22:41:25.720+0700][gc,mmu       ] GC(1) MMU target violated: 21,0ms (20,0ms/21,0ms)
+[2021-12-07T22:41:25.720+0700][gc,phases    ] GC(1)   Pre Evacuate Collection Set: 0,0ms
+[2021-12-07T22:41:25.720+0700][gc,phases    ] GC(1)   Evacuate Collection Set: 25,6ms
+[2021-12-07T22:41:25.720+0700][gc,phases    ] GC(1)   Post Evacuate Collection Set: 0,6ms
+[2021-12-07T22:41:25.720+0700][gc,phases    ] GC(1)   Other: 1,1ms
+[2021-12-07T22:41:25.720+0700][gc,heap      ] GC(1) Eden regions: 21->0(24)
+[2021-12-07T22:41:25.720+0700][gc,heap      ] GC(1) Survivor regions: 4->1(4)
+[2021-12-07T22:41:25.720+0700][gc,heap      ] GC(1) Old regions: 5->9
+[2021-12-07T22:41:25.720+0700][gc,heap      ] GC(1) Humongous regions: 0->0
+[2021-12-07T22:41:25.720+0700][gc,metaspace ] GC(1) Metaspace: 9532K->9532K(1058816K)
+[2021-12-07T22:41:25.720+0700][gc           ] GC(1) Pause Young (Normal) (G1 Evacuation Pause) 28M->8M(512M) 27,372ms
+[2021-12-07T22:41:25.720+0700][gc,cpu       ] GC(1) User=0,14s Sys=0,00s Real=0,02s
